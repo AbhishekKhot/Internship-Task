@@ -5,11 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.internshiptask.databinding.FragmentFirstBinding
+import com.example.internshiptask.databinding.FragmentXyPlotBinding
 
-class FirstFragment : Fragment() {
 
-    private var _binding: FragmentFirstBinding? = null
+class XYPlotFragment : Fragment() {
+
+    private var _binding: FragmentXyPlotBinding? = null
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
@@ -19,7 +20,7 @@ class FirstFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentFirstBinding.inflate(inflater, container, false)
+        _binding = FragmentXyPlotBinding.inflate(inflater, container, false)
         val root: View = binding.root
         return root
     }
