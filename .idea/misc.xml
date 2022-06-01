@@ -4,9 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/InternshipTask/app/src/main/res/drawable/button_background.xml" value="0.19166666666666668" />
-        <entry key="..\:/InternshipTask/app/src/main/res/layout/activity_forgot_password.xml" value="0.4466666666666667" />
+        <entry key="..\:/InternshipTask/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
         <entry key="..\:/InternshipTask/app/src/main/res/layout/activity_main.xml" value="0.2336578581363004" />
-        <entry key="..\:/InternshipTask/app/src/main/res/layout/activity_sign_in.xml" value="0.3333333333333333" />
+        <entry key="..\:/InternshipTask/app/src/main/res/layout/activity_sign_in.xml" value="0.14666666666666667" />
         <entry key="..\:/InternshipTask/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
         <entry key="..\:/InternshipTask/app/src/main/res/layout/fragment_dashboard.xml" value="0.17552083333333332" />
         <entry key="..\:/InternshipTask/app/src/main/res/layout/fragment_first.xml" value="0.17552083333333332" />
