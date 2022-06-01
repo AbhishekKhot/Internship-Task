@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Internship Task</string>
+    <string name="title_home">FIRST</string>
+    <string name="title_dashboard">SECOND</string>
+    <string name="enter_your_email_address">enter your email address</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account, SIGN UP</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_have_account_sign_in">Already have account, SIGN IN</string>
+</resources>
