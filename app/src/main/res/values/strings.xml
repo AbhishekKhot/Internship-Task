@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">Internship Task</string>
-    <string name="title_home">FIRST</string>
-    <string name="title_dashboard">SECOND</string>
     <string name="enter_your_email_address">enter your email address</string>
     <string name="reset_password">RESET PASSWORD</string>
     <string name="enter_your_password">enter your password</string>
@@ -11,4 +9,6 @@
     <string name="confirm_your_password">Confirm your password</string>
     <string name="sign_up">SIGN UP</string>
     <string name="already_have_account_sign_in">Already have account, SIGN IN</string>
+    <string name="x_y_plot">X-Y Plot</string>
+    <string name="pie_chart">Pie Chart</string>
 </resources>
