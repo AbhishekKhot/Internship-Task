@@ -44,17 +44,17 @@ class XYPlotFragment : Fragment() {
             ) {
                 when (position) {
                     0 -> setUpGraph(31)
-                    1 -> setUpGraph(12)
-                    2 -> setUpGraph(30)
-                    3 -> setUpGraph(60)
-                    4 -> setUpGraph(71)
-                    5 -> setUpGraph(10)
-                    6 -> setUpGraph(80)
+                    1 -> setUpGraph(28)
+                    2 -> setUpGraph(31)
+                    3 -> setUpGraph(30)
+                    4 -> setUpGraph(31)
+                    5 -> setUpGraph(30)
+                    6 -> setUpGraph(31)
                     7 -> setUpGraph(31)
-                    8 -> setUpGraph(60)
-                    9 -> setUpGraph(100)
-                    10 -> setUpGraph(27)
-                    11 -> setUpGraph(90)
+                    8 -> setUpGraph(30)
+                    9 -> setUpGraph(31)
+                    10 -> setUpGraph(30)
+                    11 -> setUpGraph(31)
                 }
             }
 
@@ -71,7 +71,7 @@ class XYPlotFragment : Fragment() {
 
         for (i in 1..end)
         {
-            x += 1.0
+            x += 1
             y= Math.sqrt(x)
             series.appendData(DataPoint(x,y), true, end)
         }
@@ -84,6 +84,10 @@ class XYPlotFragment : Fragment() {
         binding.idGraphView.titleColor=R.color.ap_black
         binding.idGraphView.titleTextSize= 30F
         binding.idGraphView.addSeries(series)
+        binding.idGraphView.viewport.isScalable=true
+        binding.idGraphView.viewport.isScrollable=true
+        binding.idGraphView.viewport.setScalableY(true)
+        binding.idGraphView.viewport.setScrollableY(true)
     }
 
     override fun onDestroyView() {
