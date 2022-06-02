@@ -44,17 +44,17 @@ class XYPlotFragment : Fragment() {
             ) {
                 when (position) {
                     0 -> setUpGraph(31)
-                    1 -> setUpGraph(28)
+                    1 -> setUpGraph(12)
                     2 -> setUpGraph(30)
-                    3 -> setUpGraph(30)
-                    4 -> setUpGraph(31)
-                    5 -> setUpGraph(30)
-                    6 -> setUpGraph(31)
+                    3 -> setUpGraph(60)
+                    4 -> setUpGraph(71)
+                    5 -> setUpGraph(10)
+                    6 -> setUpGraph(80)
                     7 -> setUpGraph(31)
-                    8 -> setUpGraph(30)
-                    9 -> setUpGraph(31)
-                    10 -> setUpGraph(30)
-                    11 -> setUpGraph(50)
+                    8 -> setUpGraph(60)
+                    9 -> setUpGraph(100)
+                    10 -> setUpGraph(27)
+                    11 -> setUpGraph(90)
                 }
             }
 
